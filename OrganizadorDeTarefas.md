@@ -1,4 +1,4 @@
-# Gerador 1:1 — Personal Organizer
+# Gerador — Personal Organizer
 
 Sequência de comandos para reproduzir o projeto exatamente como está.
 
