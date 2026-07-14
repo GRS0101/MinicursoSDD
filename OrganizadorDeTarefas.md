@@ -16,19 +16,19 @@ Usar Behavior-Driven Development; usar princípios S.O.L.I.D; usar Clean Archite
 Preciso de um programa que sirva para organizar a vida do usuário; ele deve ter funcionalidades de um bloco de notas; calendário, horário; deve ser possível utiliza-lo como agenda para atribuir tarefas, eventos, etc à datas específicas; também deve ser possível definir prioridades pra tarefas para que hajam lembretes delas, de acordo com a prioridade de execução;
 ```
 
-## 4. Plan
+## 3. Plan
 
 ```
 /speckit.plan
 ```
 
-## 5. Tasks
+## 4. Tasks
 
 ```
 /speckit.tasks
 ```
 
-## 6. Implement
+## 5. Implement
 
 ```
 /speckit.implement
