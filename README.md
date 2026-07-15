@@ -98,7 +98,7 @@ O SDD inverte a abordagem tradicional: primeiro você escreve **especificações
 
 ### Fluxo de trabalho SDD
 
-O ciclo SDD tem 7 etapas. Todas são executadas **dentro do agente de IA** (Opencode) usando comandos `/speckit.*`:
+O ciclo SDD tem 8 etapas. Todas são executadas **dentro do agente de IA** (Opencode) usando comandos `/speckit.*`:
 
 | Etapa | O que faz |
 |-------|-----------|
@@ -107,8 +107,9 @@ O ciclo SDD tem 7 etapas. Todas são executadas **dentro do agente de IA** (Open
 | 3. `/speckit.clarify` | Tira dúvidas sobre a especificação |
 | 4. `/speckit.plan` | Cria o plano técnico (tecnologias, arquitetura) |
 | 5. `/speckit.tasks` | Divide o plano em tarefas pequenas |
-| 6. `/speckit.implement` | Gera o código de cada tarefa |
-| 7. `/speckit.converge` | Confere se o código bate com a especificação |
+| 6. `/speckit.analyze` | Examina cada tarefa, entende o que ela precisa e verifica se está clara antes de começar |
+| 7. `/speckit.implement` | Gera o código de cada tarefa |
+| 8. `/speckit.converge` | Confere se o código bate com a especificação |
 
 ---
 
@@ -174,7 +175,7 @@ Depois:
 /speckit.specify Crie um sistema de tarefas Kanban com quadros, colunas e cards...
 ```
 
-E siga o fluxo: `/speckit.clarify` → `/speckit.plan` → `/speckit.tasks` → `/speckit.implement`.
+E siga o fluxo: `/speckit.clarify` → `/speckit.plan` → `/speckit.tasks` → `/speckit.analyze` → `/speckit.implement`.
 
 ### Para projetos EXISTENTES (brownfield)
 
@@ -215,7 +216,7 @@ Agora descreva a nova funcionalidade que você quer adicionar:
 /speckit.plan O projeto já usa React e Node.js. Mantenha o mesmo stack.
 ```
 
-E siga com `/speckit.tasks` e `/speckit.implement`.
+E siga com `/speckit.tasks`, `/speckit.analyze` e `/speckit.implement`.
 
 ---
 
